@@ -1,0 +1,33 @@
+article {
+	border: 4px solid yellow;
+	width: 400px;
+}
+h1, 
+h2 {
+	text-align: center;
+	color: green;
+}
+figure {
+	border: 2px solid black;
+	width: 200px;
+	padding: 5px;
+}
+img {
+	width: 100%;
+}
+p {
+	background: dodgerblue;
+	color: white;
+}
+a {
+	color: black;
+}
+a:hover {
+	color: red;
+}
+li {
+	font-weight: bold;
+}
+article h2 {
+	font-size: 40px;
+}

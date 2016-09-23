@@ -1,0 +1,42 @@
+body {
+	text-align: center;
+}
+span {
+	display: inline;
+	color: blue;
+	text-decoration: underline;
+	text-align: center;
+}
+figcaption {
+	font-size: 14pt
+}
+img {
+	width: 300px;	
+	color: magenta;
+	border-style: double;
+	border-width: 4px;
+}
+p {
+	text-align: left;
+	border-left-color: purple;
+	border-left-style: dashed;
+	border-left-width: 4px; 
+}
+ol {
+	text-align: left;
+	font-size: 19px;
+}	
+a {
+	text-decoration: underline;
+}
+a:hover {
+	text-decoration: none;	
+}
+a:visited {
+	text-decoration: underline;
+	color: green;
+}
+footer {
+	border-bottom-style: dashed;
+	border-width: 2px;
+}
