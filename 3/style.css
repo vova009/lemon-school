@@ -92,10 +92,13 @@ width: 100%;
 	display: inline-block;	
 	text-decoration: none;
 	color: white;	
-	margin: 10px 10px;
+	
 }
 .footer-nav a:hover {
 	border-bottom: 1px dashed white;
+}
+.footer-nav li {
+	margin: 10px;
 }
 .main-img {
 	width: 100%;
