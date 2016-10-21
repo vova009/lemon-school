@@ -1,0 +1,17 @@
+.background {	
+	background: #0f0;
+	width: 200px;
+	height: 80px;
+	position: relative;
+		
+}
+.corners {
+	padding: 20px;
+	width: 152px;
+	height: 48px;
+	background: #0f0;
+	position: absolute;
+	left:12px;
+	top: 4px;
+
+}
