@@ -1,0 +1,63 @@
+@import url(http://allfont.ru/allfont.css?fonts=montserrat-light);
+
+body {
+	background-image: linear-gradient(90deg, #fff, #e5e5e5);
+	width: 100%;
+	height: 100%;
+}
+
+* {
+	text-align: left;	
+	font-family: 'Montserrat Light', arial;
+	font-size: 14px;
+}
+
+table {
+	border-collapse: collapse;
+	border: 2px solid #f1f1f1; 
+	background: #fff;
+	width: 80%;
+	margin-left: 10%;
+	margin-top: 10%;
+}
+
+a {
+	text-decoration: none;
+	color: #dc1f26;
+	padding-left: 16px;	
+}
+
+td {
+	border-right: 1px solid #f1f1f1;
+	color: #6d6d6d;
+	padding: 10px 0 5px 0;
+	width: 85%;
+	font-size: 13px;
+	padding-left: 16px;
+	
+}
+tr:nth-child(2n) {
+	 background-color: #fbfbfb;
+}	
+
+th {
+	color: #dc1f26;
+	padding: 10px 0;
+	padding-left: 16px;
+
+}
+tr:hover {
+background: #d4d4d4;
+}
+
+table::after {
+	box-shadow: 0px 20px rgba(222,222,222,0.5)
+}
+
+a:hover {
+	text-decoration: underline;
+}
+
+td:hover {
+	color: #dc1f26;
+}
