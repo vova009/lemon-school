@@ -1,0 +1,86 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+	font-size: 
+}
+
+form {
+	width: 450px;
+	margin: 10px auto 0;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	box-shadow: 0 10px 30px 0 rgba(0,0,0,0.2)
+}
+input {
+	width: 100%;
+	border-radius: 5px;
+	padding: 5px;
+	border: 1px solid #ccc;	
+}
+
+label {
+	margin-bottom: 5px;
+}
+
+textarea {
+	width: 100%;
+	border-radius: 5px;
+	padding: 5px;
+}
+
+h1 {
+	margin: 10px 5px;
+}
+
+.date {
+	display: block;	
+	margin: 0 5px 10px 5px;
+
+}
+
+.total-date {
+	/*border-radius: 5px;*/
+	margin: 10px 5px;
+	padding-top: 10px;
+	/*display: inline-block;*/
+	border-top: 1px solid #ccc;
+}
+
+.submit {
+	border-radius: 5px;
+	margin: 0 5px 10px 5px;
+	background: #ccc;
+	/*width: 100%;*/
+}
+
+input[type="radio"] {
+	display: inline-block;
+	width: auto;	
+}
+label[for="Your-gender"] {
+	display: block;
+}
+
+.radio {
+	margin: 10px 5px 10px 5px;
+	border-top: 1px solid #ccc;
+	padding-top: 10px;
+
+}
+
+.Subscribe {
+	display: inline-block;
+	margin: 0 5px 10px 5px;
+	border-top: 1px solid #ccc;
+	padding-top: 10px;
+
+
+}
+
+form.Subscribe input[type="checkbox"] {
+	display: inline-block;
+}
+	
+	
