@@ -1,0 +1,38 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	font-family: sans-serif;
+}
+
+form {
+	width: 450px;
+	margin: 10px auto 0;
+	border: 1px solid #000;
+	border-radius: 5px;
+	padding: 10px;
+	box-shadow: 0 20px 40px 0 rgba(0,0,0,0.2),
+	inset 0px 0px 6px 0px rgba(0,0,0,0.2);
+}
+
+.name {
+	margin: 10px 0;
+}
+
+input[type="text"] {
+	width: 100%
+}
+
+input [type="radio"] {
+	display: inline-block;
+	margin-bottom: 10px 10px 5px 0;	
+}
+
+input[type="submit"] {
+	background-color: #000;
+	color: #fff;
+	border-style: none;
+	font-size: 12px;
+	padding: 1px 10px;
+
+}

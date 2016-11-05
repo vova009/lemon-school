@@ -1,0 +1,11 @@
+input[type="checkbox"]
+input[type="checkbox":not(checked)]
+#message
+#message-*
+a[href$=".zip"]
+*[data-action= delite]
+*[data-action:not (delite)]
+#messages:nth-child(even)
+h3#widget-title ~ :first-child
+h3#widget-title ~ a
+#messages:nth-last-child > a
